@@ -1,0 +1,11 @@
+---
+  debug: true
+  hostdb: # credentials with permissions to write to HostDB
+    pass: password
+    url: https://hostdb.pdxfixit.com/v0
+    user: writer
+  inventory:
+    url: https://inventory.pdxfixit.com
+  vcenter: # credentials with permissions to vcenter
+    pass: password
+    user: username
